@@ -1,4 +1,4 @@
-import { api } from '@steemit/steem-js';
+import { api } from 'steem-js-patched';
 
 import stateCleaner from 'app/redux/stateCleaner';
 

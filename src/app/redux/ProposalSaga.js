@@ -1,4 +1,4 @@
-import { api } from '@steemit/steem-js';
+import { api } from 'steem-js-patched';
 import { call, put, takeEvery } from 'redux-saga/effects';
 import * as proposalActions from './ProposalReducer';
 

@@ -9414,6 +9414,30 @@ stealthy-require@^1.1.1:
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
+steem-js-patched@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/steem-js-patched/-/steem-js-patched-1.0.0.tgz#ea9ea2db2979a1cb207e5fb20225d3130b83c795"
+  integrity sha512-+wnXZCYOfoM20BMC7NG6onif9hWLGGWNeeDy3WOBpyi15pBdjumbXzGjb+1R1SuSBeIxTmwMAClQNR7TxBzF6g==
+  dependencies:
+    "@steemit/rpc-auth" "^1.1.1"
+    bigi "^1.4.2"
+    bluebird "^3.4.6"
+    browserify-aes "^1.0.6"
+    bs58 "^4.0.0"
+    buffer "^5.0.6"
+    bytebuffer "^5.0.1"
+    create-hash "^1.1.2"
+    create-hmac "^1.1.4"
+    cross-env "^5.0.0"
+    cross-fetch "^1.1.1"
+    debug "^2.6.8"
+    detect-node "^2.0.3"
+    ecurve "^1.0.5"
+    lodash "^4.16.4"
+    retry "^0.12.0"
+    secure-random "^1.1.2"
+    ws "^3.3.2"
+
 steemscript@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/steemscript/-/steemscript-1.1.0.tgz#7d9c210c496263d4e5ccc8f4904aa49e39ee5d3b"

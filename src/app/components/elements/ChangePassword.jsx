@@ -6,8 +6,8 @@ import {
     PrivateKey,
     PublicKey,
     key_utils,
-} from '@steemit/steem-js/lib/auth/ecc';
-import { api } from '@steemit/steem-js';
+} from 'steem-js-patched/lib/auth/ecc';
+import { api } from 'steem-js-patched';
 
 import * as transactionActions from 'app/redux/TransactionReducer';
 import * as appActions from 'app/redux/AppReducer';

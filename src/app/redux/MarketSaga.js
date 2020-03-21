@@ -1,5 +1,5 @@
 import { call, put, takeLatest } from 'redux-saga/effects';
-import { api } from '@steemit/steem-js';
+import { api } from 'steem-js-patched';
 
 import * as marketActions from './MarketReducer';
 import * as appActions from './AppReducer';
