@@ -1,4 +1,4 @@
-import * as steem from '@steemit/steem-js';
+import * as steem from 'steem-js-patched';
 
 steem.config.set('address_prefix', 'STM');
 
