@@ -622,11 +622,13 @@ class UserWallet extends React.Component {
                                 )}
                             </span>
                         ) : null}
-                        <FormattedHTMLMessage
-                            className="secondary"
-                            id="tips_js.steem_power_apr"
-                            params={{ value: spApr.toFixed(2) }}
-                        />{' '}
+                        {spApr && (
+                            <FormattedHTMLMessage
+                                className="secondary"
+                                id="tips_js.steem_power_apr"
+                                params={{ value: spApr.toFixed(2) }}
+                            />
+                        )}{' '}
                     </div>
                     <div className="column small-12 medium-4">
                         {isMyAccount ? (
